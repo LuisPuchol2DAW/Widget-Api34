@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.widget_api34.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_radio_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginTop="176dp"
+        android:background="#ffffff"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="RadioGroup"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_linear_layout"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="#ffffff"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="LinearLayout"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_radio_group" />
+
+    <TextView
+        android:id="@+id/tv_relative_layout"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="#ffffff"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="RelativeLayout"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_linear_layout" />
+
+    <TextView
+        android:id="@+id/tv_overlap"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="#ffffff"
+        android:elevation="2dp"
+        android:gravity="center"
+
+        android:padding="8dp"
+        android:text="Overlap"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_relative_layout" />
+
+    <TextView
+        android:id="@+id/tv_form"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="#ffffff"
+
+        android:elevation="2dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Form"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_overlap" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

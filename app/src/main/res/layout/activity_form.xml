@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+    tools:context="com.example.widget_api32.com.example.widget_api34.Form">
+
+    <TableRow>
+        <TextView android:text="No special rules:" />
+        <EditText />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Email address:" />
+        <EditText
+            android:imeOptions="actionSend"
+            android:inputType="text|textEmailAddress" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Signed decimal number:" />
+        <EditText
+            android:imeOptions="actionDone"
+            android:inputType="number|numberSigned|numberDecimal" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Date:" />
+        <EditText android:inputType="date" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Multi-line text:" />
+        <EditText
+            android:gravity="top"
+            android:inputType="text|textMultiLine|textAutoCorrect"
+            android:minLines="3" />
+    </TableRow>
+</TableLayout>
